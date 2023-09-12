@@ -32,3 +32,10 @@ if (VAL == "C") {
 else if (VAL == "F") {
     toFahrenheit()
 }
+
+function getAge()
+{
+    //ส่งค่า 24 กลับไปที่ getAge
+    return 24
+}
+alert(getAge())
