@@ -19,4 +19,7 @@ console.log(typeof 12)
     //let จำทำงานแค่ใน Scope เท่านั้น
     let y = 10
 }
-console.log(x+y)
+//console.log(x+y)
+
+var name = prompt("My name is?")
+console.log("Hello "+ name)
