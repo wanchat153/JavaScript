@@ -8,7 +8,14 @@
 // }
 // document.getElementById("result").innerHTML = "ราคารวม " + sum + "บาท"
 
-while(prompt("ถ้าจะออกพิมพ์ Q") != "Q")
+// while(prompt("ถ้าจะออกพิมพ์ Q") != "Q")
+// {
+//     document.getElementById("result").innerHTML += "ไม่ได้พิมพ์ Q <br>"
+// }
+
+function sayHello()
 {
-    document.getElementById("result").innerHTML += "ไม่ได้พิมพ์ Q <br>"
+    alert("Hello World")
 }
+sayHello()
+sayHello()
