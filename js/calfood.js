@@ -13,9 +13,22 @@
 //     document.getElementById("result").innerHTML += "ไม่ได้พิมพ์ Q <br>"
 // }
 
-function sayHello()
-{
-    alert("Hello World")
+function toCelsius() {
+    let fah = prompt("ใส่อุณหภูมิเป็นฟาเรนไฮน์")
+    let celsius = (fah - 32) * 5 / 9
+    document.getElementById("result").innerHTML = celsius.toFixed(2) + " °C"
 }
-sayHello()
-sayHello()
+
+function toFahrenheit(){
+    let cel = prompt("ใส่อุณหภูมิเป็นองศาเซลเซียส")
+    let Fahrenheit = cel * (9 / 5) + 32
+    document.getElementById("result").innerHTML = Fahrenheit.toFixed(2) + " °F"
+}
+
+let VAL = prompt("แปลงอุณหภูมิ เป็นอะไร °F to °C = C หรือ °C to °F = F")
+if (VAL == "C") {
+    toCelsius()
+}
+else if (VAL == "F") {
+    toFahrenheit()
+}
