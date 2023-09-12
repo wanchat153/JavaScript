@@ -22,3 +22,10 @@ else if(score >= 0)
 {
     document.getElementById("grade").innerHTML = "Error"
 }
+
+//กำหนด, เงื่อนไข, เพิ้ม
+for(var counter = 0; counter < 5; counter++)
+{
+    console.log(counter)
+}
+console.log("End")
