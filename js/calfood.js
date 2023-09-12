@@ -33,9 +33,10 @@ else if (VAL == "F") {
     toFahrenheit()
 }
 
-function getAge()
+function sayHello(username)
 {
-    //ส่งค่า 24 กลับไปที่ getAge
-    return 24
+    //ส่งค่ากลับไปที่ getAge
+    return "Hello" + username
 }
-alert(getAge())
+//การรับข้อมูลใน sayHello และ ส่งค่าจากฟังก์ชัน
+alert(sayHello("M"))
