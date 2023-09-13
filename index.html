@@ -7,10 +7,13 @@
         <title>JavaScript</title>
     </Head>
 
+    <!-- onload ใน js จะไม่สามารถใช้งานกับ Element ย่อยๆ ได้ -->
     <body>
         <h1 id="buy"></h1>
-        <p>หมายเลข 2 ตัวท้าย เลขที่ถูกรางวัลคือ</p>
-        <p id="random"></p>
+
+        <!-- onclick ทำงานเมื่อตลิก -->
+        <p onclick='sayHello()'>Programmer</p>
+        <button onclick='sayHello()'>Let's Say Hello</button>
 
         <script src="js/calculate.js"></script>
     </body>
